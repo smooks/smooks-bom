@@ -13,7 +13,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <gpg.skip>true</gpg.skip>
-        <smooks.version>2.0.0</smooks.version>
+        <smooks.version>2.0.0-SNAPSHOT</smooks.version>
     </properties>
 
     <build>
