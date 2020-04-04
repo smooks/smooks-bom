@@ -64,7 +64,22 @@
             </dependency>
             <dependency>
                 <groupId>org.milyn</groupId>
+                <artifactId>milyn-smooks-all</artifactId>
+                <version>${smooks.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.milyn</groupId>
                 <artifactId>milyn-commons</artifactId>
+                <version>${smooks.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.milyn</groupId>
+                <artifactId>milyn-scribe-jpa</artifactId>
+                <version>${smooks.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.milyn</groupId>
+                <artifactId>milyn-scribe-ibatis</artifactId>
                 <version>${smooks.version}</version>
             </dependency>
             <dependency>
