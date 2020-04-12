@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.milyn</groupId>
+    <groupId>org.smooks</groupId>
     <artifactId>smooks-bom</artifactId>
     <version>2.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -58,122 +58,122 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.milyn</groupId>
-                <artifactId>milyn-smooks-core</artifactId>
+                <groupId>org.smooks</groupId>
+                <artifactId>smooks-core</artifactId>
                 <version>${smooks.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn</groupId>
-                <artifactId>milyn-smooks-all</artifactId>
+                <groupId>org.smooks</groupId>
+                <artifactId>smooks-all</artifactId>
                 <version>${smooks.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn</groupId>
-                <artifactId>milyn-commons</artifactId>
+                <groupId>org.smooks</groupId>
+                <artifactId>commons</artifactId>
                 <version>${smooks.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn</groupId>
-                <artifactId>milyn-scribe-jpa</artifactId>
+                <groupId>org.smooks</groupId>
+                <artifactId>smooks-scribe-jpa</artifactId>
                 <version>${smooks.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn</groupId>
-                <artifactId>milyn-scribe-ibatis</artifactId>
+                <groupId>org.smooks</groupId>
+                <artifactId>smooks-scribe-ibatis</artifactId>
                 <version>${smooks.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-javabean-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-misc-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-json-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-flatfile-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-calc-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-csv-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-dfdl-cartridge</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges.edi</groupId>
+                <groupId>org.smooks.cartridges.edi</groupId>
                 <artifactId>smooks-edi-cartridge</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges.edi</groupId>
+                <groupId>org.smooks.cartridges.edi</groupId>
                 <artifactId>smooks-edifact-cartridge</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-routing-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-persistence-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-persistence-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-rules-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-templating-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-scripting-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-validation-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-camel-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-yaml-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.milyn.cartridges</groupId>
+                <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-fixed-length-cartridge</artifactId>
                 <version>2.0.0-SNAPSHOT</version>
             </dependency>
