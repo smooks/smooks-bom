@@ -69,7 +69,7 @@
             </dependency>
             <dependency>
                 <groupId>org.smooks</groupId>
-                <artifactId>commons</artifactId>
+                <artifactId>smooks-commons</artifactId>
                 <version>${smooks.version}</version>
             </dependency>
             <dependency>
