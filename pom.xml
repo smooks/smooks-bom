@@ -152,6 +152,11 @@
             </dependency>
             <dependency>
                 <groupId>org.smooks</groupId>
+                <artifactId>smooks-tck</artifactId>
+                <version>${smooks.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.smooks</groupId>
                 <artifactId>smooks-all</artifactId>
                 <version>${smooks.version}</version>
             </dependency>
