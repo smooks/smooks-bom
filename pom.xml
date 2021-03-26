@@ -50,7 +50,7 @@
 
     <groupId>org.smooks</groupId>
     <artifactId>smooks-bom</artifactId>
-    <version>2.0.0-M3-SNAPSHOT</version>
+    <version>2.0.0-M3</version>
     <packaging>pom</packaging>
 
     <name>Bill of Materials</name>
@@ -84,7 +84,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <gpg.skip>true</gpg.skip>
-        <smooks.version>2.0.0-M3-SNAPSHOT</smooks.version>
+        <smooks.version>2.0.0-M3</smooks.version>
     </properties>
 
     <build>
@@ -178,104 +178,104 @@
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-javabean-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-misc-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-json-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-flatfile-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-calc-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-csv-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-dfdl-cartridge</artifactId>
-                <version>1.0.0-M3-SNAPSHOT</version>
+                <version>1.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges.edi</groupId>
                 <artifactId>smooks-edi-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges.edi</groupId>
                 <artifactId>smooks-edifact-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-routing-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-persistence-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-persistence-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-rules-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-templating-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-scripting-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-validation-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-camel-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-yaml-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-fixed-length-cartridge</artifactId>
-                <version>2.0.0-M3-SNAPSHOT</version>
+                <version>2.0.0-M3</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
 
     <repositories>
         <repository>
-            <id>oss.sonatype.org-snapshot</id>
+            <id>oss.sonatype.org</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
             <releases>
                 <enabled>false</enabled>
