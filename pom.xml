@@ -208,7 +208,7 @@
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-dfdl-cartridge</artifactId>
-                <version>1.0.0-RC1-SNAPSHOT</version>
+                <version>1.0.0-RC1</version>
             </dependency>
             <dependency>
                 <groupId>org.smooks.cartridges.edi</groupId>
