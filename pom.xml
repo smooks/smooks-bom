@@ -85,7 +85,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <gpg.skip>true</gpg.skip>
         <smooks.version>2.0.0-RC5-SNAPSHOT</smooks.version>
-        <smooks.persistence.cartridge.version>2.0.0-RC4</smooks.persistence.cartridge.version>
+        <smooks.persistence.cartridge.version>2.0.0-RC5-SNAPSHOT</smooks.persistence.cartridge.version>
     </properties>
 
     <build>
