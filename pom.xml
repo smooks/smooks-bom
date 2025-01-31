@@ -254,7 +254,7 @@
             <dependency>
                 <groupId>org.smooks.cartridges</groupId>
                 <artifactId>smooks-fixed-length-cartridge</artifactId>
-                <version>2.0.3-SNAPSHOT</version>
+                <version>2.0.3</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
